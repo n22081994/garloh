@@ -1,5 +1,3 @@
-
-
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -44,8 +42,8 @@
 
       <div class="collapse navbar-collapse" id="ftco-nav">
         <ul class="navbar-nav ml-auto">
-          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
-          <li class="nav-item"><a href="how-it-works.html" class="nav-link">About</a></li>
+          <li class="nav-item "><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item active"><a href="how-it-works.html" class="nav-link">About</a></li>
           <li class="nav-item"><a href="donate.html" class="nav-link">Resume</a></li>
           <li class="nav-item"><a href="gallery.html" class="nav-link">Projects</a></li>
           <li class="nav-item"><a href="blog.html" class="nav-link">Hobbies</a></li>
@@ -54,20 +52,161 @@
       </div>
 	</nav>  
     </div>
-  <section class="row tm-section-mb tm-section-2">
-      <div class="col-md-12 tm-section-2-inner">
-        <div class="tm-section-2-left">
-              <img src="https://media.giphy.com/media/oEK6WBsejSme4/giphy.gif" alt="Cinque Terre" width="600" height="600"></div>
-              
-          <div class="tm-section-2-right tm-bg-primary">
-          <div class="tm-section-2-text">
-            <h2 class="tm-section-2-header tm-mb-45">Contact</h2>
-            <h3>Send me a mail at garimalohani4@gmail.com</h3><br>
-  
+	<body>
+    <main>
+        <!-- Landing Area -->
+        <div id="landing">
+            <div id="landing-text">
+                <div id="landing-text-inner">
+                    <h2>About</h2><br></br>
+                    <h1>My area of interest are: <br></br>1) Next generation sequencing data analysis <br></br>2) Web Development <br></br> 3) Database design <br></br> 4) Python developer
+</h1>
+                </div>
             </div>
+            <div id="landing-image"></div>
         </div>
-      </div> </div>
-    </section
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed');
+
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    margin: 0;
+    background: #eee;
+    height: auto;
+  scroll-behavior: smooth;
+}
+
+h1 {
+    font-weight: 400;
+    font-size: 1.0rem;
+    color:black;
+    margin: 0;
+}
+
+h2 {
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-transform: capitalize;
+    margin: 0;
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+main {
+    max-width: 900px;
+    margin: auto;
+    box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.2), -30px 0px 40px rgba(0, 0, 0, 0.2);
+}
+
+#landing {
+    background: #fff;
+}
+
+#landing-text {
+    display: flex;
+    flex: 0 1 40vw;
+    height: 50vh;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+#landing-text h2 {
+    color: #888;
+	
+}
+#landing-text h1 {
+    color: #888;
+	font-size: 1.0rem;
+    
+    
+}
+.btn {
+    padding: 0.5rem 2rem;
+    border: 1px #ccc solid;
+    display: inline-block;
+    margin: 2rem 0 0;
+    border-radius: 50px;
+    text-decoration: none;
+    color: #333;
+    outline: 0;
+    transition: background 400ms ease;
+}
+
+.btn:hover {
+    background: #f4f4f4;
+}
+
+#landing-image {
+    background: url(img/girl-01.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 50vh;
+    flex: 0 1 60vw;
+    margin: 0;
+}
+
+#header {
+    padding: 1.5rem;
+    text-align: center;
+    background: #555;
+    color: #fff;
+}
+
+#header h2 {
+    border-left: dotted 4px #fff;
+    border-right: dotted 4px #fff;
+    display: inline-block;
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+
+.caption {
+    padding: 0.8rem;
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    padding: 2rem 1rem;
+    margin: auto;
+    color: #333;
+}
+
+footer h3{
+    font-size: 3em;
+    margin-bottom: 0;
+}
+
+/* screen sizes 500px and up */
+@media(min-width: 500px) {
+    #landing{
+        display: flex;
+        height: 100%;
+    }
+
+    #landing-text {
+        height: 100vh;
+    }
+
+    #landing-image {
+        height: 100vh;
+    }
+}
+
+/* screen sizes 700px and up */
+@media(min-width: 700px) {
+    .btn {
+        padding: 1rem 3rem;
+    }
+}</style>
+  
 
  <html>
 <body style="background-color: none;">
